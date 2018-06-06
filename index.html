@@ -1,0 +1,48 @@
+<!DOCTYPE html5>
+<html>
+<head>
+	<title>My address book</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+  <script src="script.js" ></script>
+</head>
+<body>
+	<div class="title">
+		<img src="addressbook.png" alt="addressbook">
+		<h1>MY ADDRESS BOOK</h1>
+	</div>
+	<div class="nav">
+		<button class="tab" type="button" id="addAddress">Add an address</button>
+		<button class="tab" type="button" id="showAddresses">See all addresses</button>
+		<button class="tab" type="button" id="searchAddress">Search an address</button>
+		<button class="tab" type="button" id="removeAddress">Remove an address</button>
+
+	</div>
+	<div class="container">
+		<div class="panel" id="addPanel">
+			<h2>Fill the form to add an address</h2>
+			<form>
+				<input type="text" name="name" id="name" placeholder="Your name">
+				<input type="text" name="surname" id="surname" placeholder="Your surname">
+				<input type="text" name="address" id="address" placeholder="Your address">
+				<input type="tel" name="phone" id="phone" placeholder="Your phone number">
+			</form>
+				<button type="submit" id="addCommand" class="ctaButton">Add address</button>
+		</div>
+		<div class="panel" id="showPanel">
+		</div>
+		<div class="panel" id="searchPanel">
+			<h2>Look up an address by name:</h2>
+			<input type="text" name="searchBar" placeholder="Wanted address here" id="searchBar">
+			<button id="searchCommand" type="submit" class="ctaButton">Search</button>
+		</div>
+		<div class="panel" id="removePanel">
+			<h2>Remove this address:</h2>
+			<input type="text" name="removeBar" placeholder="Wanted address here" id="removeBar">
+			<button id="removeCommand" type="submit" class="ctaButton">Remove</button>
+		</div>
+</body>
+</html>
