@@ -1,6 +1,8 @@
 # AddressBook
-A simple project i made for a bootcamp coding admission challenge.
+  A simple project i made for a challenge.
 
 # Functions: 
-Add contacts, display contacts, search contacts, remove contacts.
-It has no backend, so it's just a demo project.
+  Add contacts, display contacts, search contacts, remove contacts.
+
+# Notes:
+  No backend
